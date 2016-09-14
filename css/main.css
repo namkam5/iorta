@@ -258,14 +258,66 @@ textarea {
        margin-top:20px;
    }
 
+   .image-container{
+       
+       
+   }
+   .overlay{
+       position: relative;
+       width: 95%;
+       height: 130px;
+       margin: 0 auto;
+       margin-bottom: 40px;
+       z-index: 0;
+
+   }
+
    .image-container img{
-       border-radius: 50%;
-       max-width: 50%;
+       max-width: 70%;
+       position: relative;
+       z-index: 1;
        
    }
 
+   .image-container img:hover{
+       opacity: 0.2;
+       transition: opacity 0.35s, transform 0.35s;
+       
+      }
+
+   .image-container figcaption{
+       font-size: 16px;
+       padding-left:10px;
+       text-align: center;
+       width: 70%;
+       margin: 0 auto;
+       margin-top:-180px;
+       margin-bottom: 60px;
+       color: #000;
+       
+
+   }
+
+   .team-social a{
+       padding:0px 10px;
+       text-decoration: none;
+       
+   }
+
+   .team-social a svg{
+       width: 30px;
+       height: 30px;
+       padding-top:20px;
+       fill:#565656;
+   }
+
+   .team-social a:hover svg{
+       fill: #2c3e50;
+   }
+
    .two-team-meta{
-       padding: 25px;
+       padding: 20px;
+       font-size: 20px;
    }
 
 /* ==========================================================================
