@@ -169,6 +169,7 @@ textarea {
 
    .video-container{
        margin-bottom: 30px;
+       border:5px solid #fff;
    }
 
    .video-container video{
