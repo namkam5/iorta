@@ -70,7 +70,7 @@ textarea {
    .navbar{
        max-width: 100%;
        height: 100px;
-       background-color: #303F9F;
+       background-color: #212121;
        
        
    }
@@ -142,26 +142,29 @@ textarea {
 
    .section-one{
        width:100%;
-       height: auto;
-       background-color: #303F9F;
+       height: 78vh;
+       background-image: url(../img/empire.jpg);
        font-family: 'Merriweather',serif;
        font-weight: 300;
        font-size: 20px;
        color: #fff;
    }
 
+
    .one-container{
+       position: relative;
        max-width: 1120px;
        margin: 0 auto;
        padding: 20px;
+       z-index: 0;
    }
 
    .one-left{
-       margin-top:-20px;
+       margin-top:80px;
    }
 
    .one-right{
-       margin-top:-20px; 
+       margin-top:80px; 
        text-align: left;
        padding:20px;
        
@@ -236,17 +239,17 @@ textarea {
 }
 
 /* ==========================================================================
-   Section Two
+   Section Three ( Team)
    ========================================================================== */
 
    .section-two{
        width:100%;
        height: auto;
-       background-color: #fff;
+       background-color: #EBEFF1;
        font-family: 'Merriweather',serif;
        font-weight: 300;
        font-size: 24px;
-       color: #464646;
+       color: #212121;
    }
 
    .two-container{
@@ -323,7 +326,7 @@ textarea {
    }
 
    .team-social a:hover svg{
-       fill: #303F9F;
+       fill: #0199FF;
    }
 
    .two-team-meta{
@@ -332,20 +335,19 @@ textarea {
    }
 
 /* ==========================================================================
-   Section Three
+   Section Two (services )
    ========================================================================== */
 
 
 .section-three{
        width:100%;
        height: auto;
-       background-color: #fff;
+       background-color: #212121;
        font-family: 'Merriweather',serif;
        font-weight: 300;
        font-size: 24px;
-       color: #565656;
-       border-top: 5px solid #303F9F;
-       border-bottom: 5px solid #303F9F;
+       color: #EBEFF1;
+       
    }
 
    .three-container{
@@ -362,6 +364,7 @@ textarea {
 
    .image-container svg{
        max-width: 50%;
+       fill: #EBEFF1;
    }
 
 
@@ -373,11 +376,11 @@ textarea {
 .section-four{
        width:100%;
        height: auto;
-       background-color: #fff;
+       background-color: #212121;
        font-family: 'Merriweather',serif;
        font-weight: 300;
        font-size: 24px;
-       color: #464646;
+       color: #fff;
    }
 
    .four-container{
@@ -416,7 +419,7 @@ footer{
        font-weight: 300;
        font-size: 18px;
        color: #565656;
-       border-top: 1px solid #303F9F;
+       border-top: 1px solid #0199FF;
 
    }
 
